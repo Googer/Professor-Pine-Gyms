@@ -1,0 +1,22 @@
+{
+  "name": "Professor-Pine-Gym-Schema",
+  "version": "1.0.0",
+  "description": "Professor Pine Gym schema generator and seeder",
+  "main": "index.js",
+  "dependencies": {
+    "knex": "^0.14.3",
+    "loglevel": "^1.6.1",
+    "loglevel-prefix-persist": "^1.0.3",
+    "mysql": "^2.15.0",
+    "uuid": "^3.2.1",
+    "PgP-Data": "github:Googer/PgP-Data"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node %NODE_DEBUG_OPTION% index.js"
+  },
+  "author": "Matt Legowski",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/Googer/Professor-Pine-Gym-Schema.git"
+}
