@@ -4,12 +4,12 @@
   "description": "Professor Pine Gym schema generator and seeder",
   "main": "index.js",
   "dependencies": {
-    "knex": "^0.14.3",
+    "PgP-Data": "github:Googer/PgP-Data",
+    "knex": "^0.14.6",
     "loglevel": "^1.6.1",
     "loglevel-prefix-persist": "^1.0.3",
-    "mysql": "^2.15.0",
-    "uuid": "^3.2.1",
-    "PgP-Data": "github:Googer/PgP-Data"
+    "mysql": "^2.16.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {},
   "scripts": {

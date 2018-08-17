@@ -66,7 +66,8 @@ knex.migrate.latest()
 					name: gym.gymName,
 					description: gym.gymInfo.gymDescription,
 					latitude: gym.gymInfo.latitude,
-					longitude: gym.gymInfo.longitude
+					longitude: gym.gymInfo.longitude,
+					nearestGym: gym.gymInfo.nearestGym
 				}))
 				.catch(err => log.error(err));
 		});
